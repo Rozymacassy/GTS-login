@@ -9,7 +9,6 @@ form{
     /* display: block; */
     margin:  20px auto;
     border-radius: 10px;
-    margin-top: 7%;
     
 
 }
@@ -18,7 +17,7 @@ input,
 button,
 textarea {
     display: block;
-    margin:  20px auto;
+    margin:  10px auto;
     width: 50%;
 
 }
@@ -48,6 +47,11 @@ input::placeholder{
 
 }
 
+span{
+padding-left: 20%;
+
+}
+
 #fname,
 #lname{
     text-transform: capitalize;
@@ -60,4 +64,5 @@ input::placeholder{
     border: none;
     background-color:darkmagenta ;
     color: white;
+    cursor: pointer;
 }
