@@ -1,0 +1,63 @@
+body{
+    background-image: url(bg1.jpg);
+    background-size: cover;
+}
+
+form{
+    background: #a7a3a08c ;
+    width: 60%;
+    /* display: block; */
+    margin:  20px auto;
+    border-radius: 10px;
+    margin-top: 7%;
+    
+
+}
+
+input,
+button,
+textarea {
+    display: block;
+    margin:  20px auto;
+    width: 50%;
+
+}
+
+input,
+textarea{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    /* border-color: darkmagenta; */
+    color: black ;
+    resize: none;
+    transition: 4ms all ease-in;
+
+
+}
+input:hover{
+    width: 70%;
+    border: 1px solid darkmagenta;
+    transition: 4ms all ease-in-out;
+    background-color: rgba(116, 48, 116, 0.336);
+
+}
+input::placeholder{
+    color: darkmagenta;
+    font-weight: 500;
+
+}
+
+#fname,
+#lname{
+    text-transform: capitalize;
+
+}
+
+.btn{
+    border-radius: 20px;
+    padding: 18px ;
+    border: none;
+    background-color:darkmagenta ;
+    color: white;
+}
